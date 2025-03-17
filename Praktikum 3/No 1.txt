@@ -1,0 +1,20 @@
+Jelaskan Bagaimana cara kerja Kode Lengan di atas!
+
+Program ini merupakan simulasi 3D dari lengan dan jari tangan menggunakan OpenGL.
+Berikut adalah fitur utama yang sudah dibuat:
+
+1. Struktur Lengan dan Jari 
+   Menggunakan "glutWireCube" untuk membentuk bagian tubuh seperti bahu, siku, telapak tangan, dan jari-jari.
+   Setiap jari terdiri dari beberapa ruas dengan rotasi tersendiri.
+
+2. Transformasi dan Rotasi
+   Gerakan dilakukan dengan "glRotatef" untuk memutar setiap bagian.
+   "glTranslatef" digunakan untuk mengatur posisi setiap bagian.
+
+3. Interaksi dengan Keyboard
+   Beberapa tombol digunakan untuk menggerakkan lengan dan jari.
+   Contoh: B/b untuk menggerakkan bahu, S/Z untuk siku, dan J/j untuk ibu jari.
+
+4. Tampilan dan Perspektif
+   "gluPerspective" digunakan untuk tampilan 3D.
+   "glViewport" memastikan objek bisa dilihat dari berbagai ukuran jendela.
