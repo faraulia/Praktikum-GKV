@@ -13,7 +13,7 @@ Berikut adalah fitur utama yang sudah dibuat:
 
 3. Interaksi dengan Keyboard
    Beberapa tombol digunakan untuk menggerakkan lengan dan jari.
-   Contoh: B/b untuk menggerakkan bahu, S/Z untuk siku, dan J/j untuk ibu jari.
+   Contoh: B/b untuk menggerakkan bahu dan J/j untuk ibu jari.
 
 4. Tampilan dan Perspektif
    "gluPerspective" digunakan untuk tampilan 3D.
